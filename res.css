@@ -1,0 +1,26 @@
+@media screen and (max-width: 1000px) {
+    body{
+        overflow: hidden;
+    }
+    .box{
+        width: 95%;
+        height: 500px;
+        /* background-color: blueviolet; */
+        /* background: linear-gradient(violet 20%,blueviolet 100%); */
+        margin: auto;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .box .logo img{
+        margin-left: 30px;
+        height: 100px;
+    }   
+    .input2{
+        display: flex;   
+        padding: 10px 20px;
+        width:200px;
+        
+    }
+}
